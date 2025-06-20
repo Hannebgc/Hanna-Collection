@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANNA COLLECTION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand" href="anasayfa.html">HANNA COLLECTION</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- navbar sol menü -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="anasayfa.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iletisim.html">İletişim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Kategoriler
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="galeri.html">Elbise</a></li>
+                  <li><a class="dropdown-item" href="galeri.html">Ceket</a></li>
+                  <li><a class="dropdown-item" href="galeri.html">Pantolon</a></li>
+                  <li><a class="dropdown-item" href="galeri.html">Ayakkabı</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- navbar sağ menü -->
+            <form class="d-flex me-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ne aramak istersin?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+            <a href="login.html" class="btn btn-outline-primary me-2">Giriş Yap</a>
+            <a href="signup.html" class="btn btn-primary">Kayıt Ol</a>
+            <a href="sepet.html" class="btn btn-outline-dark ms-2 position-relative">
+             <i class="bi bi-bag me-1"></i> Sepet
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider carousel -->
+      <div id="bigSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#bigSlider" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#bigSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#bigSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        
+        <div class="carousel-inner">
+          <!-- slider 1.görsel -->
+          <div class="carousel-item active position-relative">
+            <img src="https://static.e-stradivarius.net/assets/public/9bfb/2db9/b93a4db2804b/d3247805e486/07696667400-02-d/07696667400-02-d.jpg?ts=1744024718937&w=1126" class="d-block w-100 slider-img-top" alt="İlkbahar Yaz Koleksiyonu">
+            <div class="overlay-text">
+              <h3 class="slider-title">İLKBAHAR YAZ KOLEKSİYONU</h3> 
+              <a href="galeri.html" class="custom-button">ŞİMDİ GÖRÜNTÜLE</a>
+            </div>
+          </div>
+
+          <!-- slider 2.görsel -->
+          <div class="carousel-item position-relative">
+            <img src="https://shop.mango.com/cms-assets/v3/assets/blt351b9b24ac05a648/blt36809ca4fffdee53/680b603993ca735612a364ce/LANDING_FIESTA.jpg?imdensity=1&im=RegionOfInterestCrop,width=1920,height=823,regionOfInterest=(2332.5,1000)" class="d-block w-100" alt="...">
+            <div class="overlay-text">
+              <h3 class="slider-title">YENİ ÜRÜNLER</h3> 
+              <a href="galeri.html" class="custom-button">ŞİMDİ GÖRÜNTÜLE</a>
+            </div>
+          </div>
+
+          <!-- slider 3.görsel -->
+          <div class="carousel-item position-relative">
+            <img src="https://shop.mango.com/cms-assets/v3/assets/blt351b9b24ac05a648/bltac473d40d5f3bd94/680b600802dffb3fe7932e0b/LANDING_LINO.jpg?imdensity=1&im=RegionOfInterestCrop,width=1920,height=823,regionOfInterest=(1866,1000)" class="d-block w-100" alt="...">
+            <div class="overlay-text">
+              <h3 class="slider-title">FAVORİ STİLLER</h3> 
+              <a href="galeri.html" class="custom-button">ŞİMDİ GÖRÜNTÜLE</a>
+            </div>
+          </div>
+        </div>
+        
+          <!-- slider butonları -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#bigSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bigSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <!-- ürün kartları -->
+      <!-- üst satır 2 kart -->
+      <div class="row g-0"> 
+        <div class="col-md-6 position-relative">
+          <a href="galeri.html">
+            <img src="https://shop.mango.com/assets/rcs/pics/static/T1/fotos/outfit/S/17061230_11-99999999_01.jpg?imwidth=640&imdensity=1&ts=1745485544546" class="img-fluid w-100" alt="Elbise">
+            <div class="photo-caption">
+              <span class="caption-left">ELBİSE</span>
+              <span class="caption-right">TÜMÜNÜ GÖRÜNTÜLE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 position-relative">
+          <a href="galeri.html">
+            <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/outfit/S/87021512_30-99999999_01.jpg?imwidth=640&imdensity=1&ts=1731670463389" class="img-fluid w-100" alt="Blazer Ceket">
+            <div class="photo-caption">
+              <span class="caption-left">BLAZER CEKET</span>
+              <span class="caption-right">TÜMÜNÜ GÖRÜNTÜLE</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- alt satır 2 kart -->
+      <div class="row g-0">
+        <div class="col-md-6 position-relative">
+          <a href="galeri.html">
+            <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/outfit/S/87050281_99-99999999_01.jpg?imwidth=640&imdensity=1&ts=1730388830121" class="img-fluid w-100" alt="Ayakkabı">
+            <div class="photo-caption">
+              <span class="caption-left">AYAKKABI</span>
+              <span class="caption-right">TÜMÜNÜ GÖRÜNTÜLE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 position-relative">
+          <a href="galeri.html">
+            <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/outfit/S/87047172_70-99999999_01.jpg?imwidth=640&imdensity=1&ts=1741266319377" class="img-fluid w-100" alt="Pantolon">
+            <div class="photo-caption">
+              <span class="caption-left">PANTOLON</span>
+              <span class="caption-right">TÜMÜNÜ GÖRÜNTÜLE</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <!-- hakkımızda yazısı -->
+      <div class="hakkimizda-yazi">
+        <h2>Hakkımızda</h2>
+        <p>
+          HANNA COLLECTION olarak, her detayda özen ve zerafeti ön planda tutuyoruz.<br>
+          Koleksiyonlarımızda, modern çizgilerle klasik dokunuşları harmanlayarak, her kadının kendini özel hissetmesini istiyoruz.<br>
+          Stiline ilham vermek için buradayız.
+        </p>
+      </div>
+
+    <!-- footer alanı -->
+    <footer class="footer-yazi">
+      <div class="container-fluid text-center py-4">
+        <p class="mb-1">2025 HANNA COLLECTION</p>
+        <!-- footer linkleri -->
+        <a href="anasayfa.html" class="text-white me-3">Anasayfa</a>
+        <a href="hakkımızda.html" class="text-white me-3">Hakkımızda</a>
+        <a href="iletisim.html" class="text-white me-3">İletişim</a>
+        <a href="signup.html" class="text-white me-3">Kayıt ol</a>
+        <a href="login.html" class="text-white me-3">Giriş Yap</a> 
+      </div>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

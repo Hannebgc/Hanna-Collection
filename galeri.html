@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler | Hanna Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand" href="anasayfa.html">HANNA COLLECTION</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- navbar sol menü -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="anasayfa.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iletisim.html">İletişim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Kategoriler
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="galeri.html">Elbise</a></li>
+                  <li><a class="dropdown-item" href="galeri.html">Ceket</a></li>
+                  <li><a class="dropdown-item" href="galeri.html">Pantolon</a></li>
+                  <li><a class="dropdown-item" href="galeri.html">Ayakkabı</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- navbar sağ menü -->
+            <form class="d-flex me-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ne aramak istersin?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+            <a href="login.html" class="btn btn-outline-primary me-2">Giriş Yap</a>
+            <a href="signup.html" class="btn btn-primary">Kayıt Ol</a>
+            <a href="sepet.html" class="btn btn-outline-dark ms-2 position-relative">
+              <i class="bi bi-bag me-1"></i> Sepet
+            </a>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- galeri başlığı -->
+      <div class="container my-5">
+        <h2 class="section-title">Yeni Sezon Ürünleri</h2>
+        <p class="section-subtext">Sezonun en yeni ve trend ürünlerini keşfedin</p>
+
+        <!-- 1.satır ürün kartları -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-1">
+
+          <!-- 1.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/outfit/S/87088652_43-99999999_01.jpg?imwidth=640&imdensity=1&ts=1745487344172" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Drape yakalı uzun elbise</h5>
+                <p class="card-text">2.299,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T1/fotos/outfit/S/17061230_11-99999999_01.jpg?imwidth=640&imdensity=1&ts=1745485544546" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Pullu elbise</h5>
+                <p class="card-text">3.199,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T1/fotos/S/17021271_52.jpg?imwidth=640&imdensity=1&ts=1745487344172" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Çiçek desenli tül elbise</h5>
+                <p class="card-text">1.899,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T1/fotos/S/17021233_05_D2.jpg?imwidth=640&imdensity=1&ts=1745485544546" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Püskül detaylı elbise</h5>
+                <p class="card-text">2.799,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div> 
+        </div>  
+     
+        <!-- 2.satır kartlar -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-1">
+
+          <!-- 5.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87075141_30.jpg?imwidth=640&imdensity=1&ts=1737542099792" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Desenli blazer ceket</h5>
+                <p class="card-text">2.599,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/outfit/S/87077162_02-99999999_01.jpg?imwidth=640&imdensity=1&ts=1743509112165" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Keten blazer ceket</h5>
+                <p class="card-text">3.799,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87057896_32_D6.jpg?imwidth=640&imdensity=1&ts=1743762971523" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Kemerli blazer ceket</h5>
+                <p class="card-text">3.199,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/outfit/S/87085139_99-99999999_01.jpg?imwidth=640&imdensity=1&ts=1736787896613" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Düz kesim blazer ceket</h5>
+                <p class="card-text">2.899,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 3.satır kartlar -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-1">
+
+          <!-- 9.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87074068_01.jpg?imwidth=640&imdensity=1&ts=1733331885459" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Metalik detaylı topuklu ayakkabı</h5>
+                <p class="card-text">1.599,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87014070_31.jpg?imwidth=480&imdensity=1&ts=1735828466584" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Tokalı deri makosen ayakkabı</h5>
+                <p class="card-text">2.599,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 11.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87074803_PL.jpg?imwidth=640&imdensity=1&ts=1734602718828" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Bantlı topuklu sandalet</h5>
+                <p class="card-text">1.799,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87056710_30.jpg?imwidth=640&imdensity=1&ts=1737725675991" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Çiçek işlemeli babet</h5>
+                <p class="card-text">2.199,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4.satır kartlar -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-1">
+
+          <!-- 13.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87073279_99.jpg?imwidth=640&imdensity=1&ts=1731947672815" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Düz kesim triko pantolon</h5>
+                <p class="card-text">1.199,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 14.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87038648_TC.jpg?imwidth=640&imdensity=1&ts=1744371291346" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Denim palazzo pantolon</h5>
+                <p class="card-text">2.199,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 15.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87093651_30.jpg?imwidth=640&imdensity=1&ts=1734953704395" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Wideleg kumaş pantolon</h5>
+                <p class="card-text">1.899,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 16.ürün -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87083295_35.jpg?imwidth=640&imdensity=1&ts=1734944691444" class="card-img-top" alt="Elbise 1">
+              <div class="card-body">
+                <h5 class="card-title">Wideleg jogger pantolon</h5>
+                <p class="card-text">1.999,99 TL</p>
+                <button type="button" class="btn btn-outline-dark btn-sm w-100 btn-sepet-ekle">
+                  <i class="bi bi-bag"></i> Sepete Ekle
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
